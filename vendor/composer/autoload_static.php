@@ -15,7 +15,7 @@ class ComposerStaticInitce32f360f39707201d89a619cd8d8bbb
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '6a47392539ca2329373e0d33e1dba053' => __DIR__ . '/..' . '/symfony/polyfill-intl-icu/bootstrap.php',
         '32dcc8afd4335739640db7d200c1971d' => __DIR__ . '/..' . '/symfony/polyfill-apcu/bootstrap.php',
-        '719971e375036615a0685b6fb054583d' => __DIR__ . '/..' . '/symfony/symfony/src/Symfony/Component/VarDumper/Resources/functions/dump.php',
+        '982b819da8e6808ac4664098df6657f7' => __DIR__ . '/..' . '/symfony/symfony/src/Symfony/Component/VarDumper/Resources/functions/dump.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -55,6 +55,10 @@ class ComposerStaticInitce32f360f39707201d89a619cd8d8bbb
         'M' => 
         array (
             'Monolog\\' => 8,
+        ),
+        'K' => 
+        array (
+            'Knp\\Bundle\\MarkdownBundle\\' => 26,
         ),
         'I' => 
         array (
@@ -179,6 +183,10 @@ class ComposerStaticInitce32f360f39707201d89a619cd8d8bbb
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
+        'Knp\\Bundle\\MarkdownBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/knplabs/knp-markdown-bundle',
+        ),
         'Incenteev\\ParameterHandler\\' => 
         array (
             0 => __DIR__ . '/..' . '/incenteev/composer-parameter-handler',
@@ -230,6 +238,13 @@ class ComposerStaticInitce32f360f39707201d89a619cd8d8bbb
             'SensioLabs\\Security' => 
             array (
                 0 => __DIR__ . '/..' . '/sensiolabs/security-checker',
+            ),
+        ),
+        'M' => 
+        array (
+            'Michelf' => 
+            array (
+                0 => __DIR__ . '/..' . '/michelf/php-markdown',
             ),
         ),
         'D' => 
